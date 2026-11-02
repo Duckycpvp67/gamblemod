@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "gamblemod",
+  "version": "${version}",
+  "name": "Gamble Helper",
+  "description": "WIN/LOSE chat buttons and profit tracker for gambling.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["nl.gamble.GambleMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
